@@ -1,0 +1,1568 @@
+/* 21961045 박수현 */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+}
+
+
+aside {
+    color: #ffffff;
+}
+
+aside ul {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+aside li {
+    padding:10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 300;
+  -background-color: #b52d89;
+}
+
+#menu_ul .active > a {
+  color: red;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+/* 카드 */
+
+
+.web_list > li{
+  width: 280px;
+  height: 397px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 30px;
+  float: left;
+
+}
+
+.pic1 {
+  background: url("../img/test1.png")no-repeat;
+}
+
+.pic1:hover {
+      transition: 0.3s;
+      background: url("../img/test1_on.png")
+    }
+
+.pic2 {
+  background: url("../img/test2.png")no-repeat;
+}
+
+.pic2:hover {
+      transition: 0.3s;
+      background: url("../img/test2_on.png")
+    }
+
+.pic3 {
+  background: url("../img/test3.png")no-repeat;
+}
+
+.pic3:hover {
+      transition: 0.3s;
+      background: url("../img/test3_on.png")
+    }
+
+.pic4{
+background: url("../img/test4.png")no-repeat;
+}
+
+.pic4:hover {
+    transition: 0.3s;
+    background: url("../img/test4_on.png")
+  }
+
+.pic5{
+background: url("../img/test5.png")no-repeat;
+}
+
+.pic5:hover {
+    transition: 0.3s;
+    background: url("../img/test5_on.png")
+  }
+
+.pic6{
+background: url("../img/test6.png")no-repeat;
+}
+
+.pic6:hover {
+    transition: 0.3s;
+    background: url("../img/test6_on.png")
+  }
+
+.pic7{
+  background: url("../img/test7.png")no-repeat;
+}
+
+.pic7:hover {
+  transition: 0.3s;
+  background: url("../img/test7_on.png")
+}
+
+.pic8{
+  background: url("../img/test8.png")no-repeat;
+}
+
+.pic8:hover {
+  transition: 0.3s;
+  background: url("../img/test8_on.png")
+}
+
+
+.pic9{
+  background: url("../img/test9.png")no-repeat;
+}
+
+.pic9:hover {
+  transition: 0.3s;
+  background: url("../img/test9_on.png")
+}
+
+
+.pic10{
+  background: url("../img/test10.png")no-repeat;
+}
+
+.pic10:hover {
+  transition: 0.3s;
+  background: url("../img/test10_on.png")
+}
+
+.pic11{
+  background: url("../img/test11.png")no-repeat;
+}
+
+.pic11:hover {
+  transition: 0.3s;
+  background: url("../img/test11_on.png")
+}
+
+.pic12{
+  background: url("../img/test12.png")no-repeat;
+}
+
+.pic12:hover {
+  transition: 0.3s;
+  background: url("../img/test12_on.png")
+}
+.pic13{
+  background: url("../img/test13.png")no-repeat;
+}
+
+.pic13:hover {
+  transition: 0.3s;
+  background: url("../img/test13_on.png")
+}
+.pic14{
+  background: url("../img/test14.png")no-repeat;
+}
+
+.pic14:hover {
+  transition: 0.3s;
+  background: url("../img/test14_on.png")
+}
+.pic15{
+  background: url("../img/test15.png")no-repeat;
+}
+
+.pic15:hover {
+  transition: 0.3s;
+  background: url("../img/test15_on.png")
+}
+
+.pic16{
+  background: url("../img/test16.png")no-repeat;
+}
+
+.pic16:hover {
+  transition: 0.3s;
+  background: url("../img/test16_on.png")
+}
+
+
+a.active-color { color:red;}
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 110%;
+  line-height:120%;
+  font-weight: 100;
+  color: #d1d1d1;
+  position: absolute;
+  left:50%;
+  top: 100px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 60px;
+
+}
+
+
+
+
+footer > a h2 {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 700%;
+  line-height:120%;
+  font-weight: 100;
+  color: #d1d1d1;
+  position: absolute;
+  left:450px;
+  top: 60px;
+  }
+
+footer .other {
+  position: absolute;
+  left:31%;
+  top: 200px;
+}
+
+footer .other >li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 110%;
+  font-weight: 100;
+  color: #919191;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+}
+
+footer .other >li >b {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 110%;
+  font-weight: 600;
+  color: #a3a3a3;
+}
+
+
+footer > img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 110px;
+  opacity: 0.4;
+}
+
+footer > p {
+  position: absolute;
+  left: 40%;
+  bottom: 30px;
+  text-align: center;
+
+}
+/* 팝업2 */
+#card1_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card1_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card1_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card1_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card1_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card1_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+table {
+  width: 400px;
+  position: absolute;
+  top: 570px;
+  left: 100px;
+  border-top: 1px solid #515151;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #515151;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+  font-size: 90%;
+  line-height:180%;
+  font-weight: 100;
+  color: #d1d1d1;
+}
+
+
+
+#card1_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card1_pop .pic {
+  float: right;
+  margin-right: -100px;
+
+}
+#card1_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+#card2_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card2_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card2_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card2_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card2_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card2_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card2_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card2_pop .pic {
+  float: right;
+  margin-right: -100px;
+
+}
+#card2_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+#card3_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card3_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card3_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card3_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card3_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card3_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card3_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card3_pop .pic {
+  float: right;
+  margin-right: -100px;
+
+}
+#card3_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card4_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card4_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card4_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card4_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card4_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card4_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card4_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card4_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -50px;
+
+}
+#card4_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#card5_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card5_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card5_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card5_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card5_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card5_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card5_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card5_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -50px;
+
+}
+#card5_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card6_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card6_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card6_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card6_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card6_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card6_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card6_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card6_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -50px;
+
+}
+#card6_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card7_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card7_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card7_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card7_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card7_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card7_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card7_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card7_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -50px;
+
+}
+#card7_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#card8_pop {
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card8_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card8_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card8_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card8_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card8_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card8_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card8_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -50px;
+
+}
+#card8_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card9_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card9_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card9_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card9_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card9_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card9_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card9_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card9_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card9_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card10_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card10_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card10_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card10_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card10_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card10_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card10_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card10_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card10_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card11_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card11_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card11_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card11_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card11_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card11_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card11_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card11_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card11_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card12_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card12_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card12_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card12_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card12_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card12_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card12_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card12_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card12_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+#card13_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card13_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card13_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card13_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card13_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card13_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card13_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card13_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card13_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card14_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card14_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card14_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card14_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card14_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card14_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card14_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card14_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card14_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+#card15_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card15_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card15_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card15_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card15_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card15_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card15_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card15_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card15_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+#card16_pop{
+    position : fixed;
+    width: 100%;
+    height:100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    z-index: 2000;
+    transition: 0.5s;
+    opacity : 0;
+    background-color: rgba( 0, 0, 0, 1 );
+    visibility: hidden;
+}
+
+#card16_pop.on {
+    opacity : 1;
+    visibility: visible;
+}
+
+#card16_pop .top{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  -background-color: gray;
+}
+
+#card16_pop .top .logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#card16_pop .top .over{
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 80%;
+  font-weight: 200;
+  line-height: 180%;
+  color: #e2e2e2;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+
+}
+
+#card16_pop .left {
+  position: absolute;
+  left: 0;
+  width: 805px;
+  background-color: gray;
+
+}
+
+#card16_pop .go{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 25%;
+
+}
+#card16_pop .pic {
+  float: right;
+  margin-right: -100px;
+  margin-top: -80px;
+
+}
+#card16_pop .previewCut_close {
+    position : absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 100;
+    cursor: pointer;
+}

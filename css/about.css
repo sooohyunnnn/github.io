@@ -1,0 +1,421 @@
+/* 21961045 박수현 */
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+html, body {
+  height: 100%;
+  /* overflow-y: hidden */
+
+}
+
+
+
+.cursor {
+    position: fixed;
+    left: -10px;
+    top: -100px;
+    pointer-events: none;
+}
+.cursor--small {
+    /* left: -8px;
+    top: -9px; */
+    z-index: 10000;
+}
+
+
+
+@keyframes text-blur-out {
+  0% {
+    webkit-filter: blur(0.01);
+            filter: blur(0.01);
+  }
+  100% {
+    webkit-filter: blur(12px) opacity(0%);
+            filter: blur(12px) opacity(0%);
+  }
+}
+
+
+body {
+    position: relative;
+    width: 100%
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 17px;
+    word-break: keep-all;
+    color: #333;
+    background: url("../img/bg.png")no-repeat;
+}
+
+
+
+
+/*start*/
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(2, 2, 2, 0.4);
+}
+
+header #areaLogo {
+    height: 30px;
+    margin-top: -5px;
+    margin-left:-1300px;
+    box-sizing: border-box;
+}
+
+
+header h1 a, header h2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header #gnb {
+    text-align: center;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 80px;
+    box-sizing: border-box;
+}
+
+header #gnb>li {
+    display: inline-block;
+}
+
+header #gnb>li>a {
+    box-sizing: border-box;
+    display: block;
+    height: 48px;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 17px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+
+
+
+
+
+/* 아이폰 678(375) 이상 시 */
+@media screen and (min-width: 375px){
+
+    header #gnb>li>a {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+}
+
+/* 아이폰 678 플러스 (414) 이상 시 */
+@media screen and (min-width: 414px){
+    header #gnb>li {
+        margin: 0 2px;
+    }
+}
+
+/* 태블릿 (768) 이상 시 */
+@media screen and (min-width: 768px){
+
+    header #gnb>li {
+        margin: 0 15px;
+    }
+
+    /* #section1::before {
+        border-bottom: 120px solid green;
+        top: -120px;
+    } */
+
+}
+
+/* 태블릿 (1024) 이상 시 */
+@media screen and (min-width: 1024px){
+
+    header #areaLogo {
+        height: 0;
+    }
+
+    header {
+    }
+
+    header #gnb {
+        border: none;
+    }
+
+    header h1 {
+        margin-right: 7px;
+    }
+
+    header h1, header h2 {
+        float: left;
+        margin-top: 30px;
+    }
+
+    header nav {
+        float: right;
+    }
+
+    header #gnb>li>a {
+        height: 79px;
+        /* border-bottom 포함 80px */
+        line-height: 80px;
+    }
+
+    header #gnb>li:last-child {
+        margin-right: 0;
+    }
+
+    header #gnb>li:last-child a {
+        padding-right: 0;
+    }
+
+
+
+
+}
+
+.content1 {
+    width: 100%;
+    height: 500px;
+    top: 0;
+    width:100%;
+
+  }
+
+.content1 h2 {
+  animation: text-blur-out 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) reverse both;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 700%;
+  line-height:120%;
+  font-weight: 300;
+  /* width: 100%; */
+  color: #d1d1d1;
+  position: absolute;
+  left: 350px;
+  top: 300px;
+    }
+
+.content2 {
+  -background-color: green;
+  width: 550px;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+
+  }
+
+.content2 > p {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+  font-size: 110%;
+  line-height:180%;
+  font-weight: 100;
+  /* width: 100%; */
+  color: #d1d1d1;
+
+
+    }
+
+
+.content3 {
+  background: url("../img/profile.png")no-repeat;
+  width: 600px;
+  height: 800px;
+  position: relative;
+  top: -150px;
+  right: 200px;
+  float: right;
+
+  }
+
+.content4 {
+  width: 100%;
+  height: 210px;
+  position: relative;
+  bottom: -800px;
+
+  }
+.content4 .left {
+  -background-color: black;
+  width: 180px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 200px;
+
+}
+
+
+.content4 .left > p {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  font-size: 200%;
+  line-height:180%;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid #515151;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #515151;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+  font-size: 120%;
+  line-height:180%;
+  font-weight: 100;
+  color: #d1d1d1;
+}
+
+.content4 .right {
+  -background-color: black;
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 200px;
+  float: right;
+  text-align: left;
+}
+
+.content5 {
+  -background-color: green;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  bottom: -900px;
+
+  }
+.content5 .left {
+  -background-color: black;
+  width: 180px;
+  height: 70px;
+  position: absolute;
+  top: -20px;
+  left: 200px;
+
+}
+.content5 .right {
+  -background-color: black;
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 200px;
+  float: right;
+  text-align: left;
+}
+
+
+.content5 .left > p {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  font-size: 200%;
+  line-height:180%;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+
+.content5 .right > td {
+margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgba(2, 2, 2, 0.8);
+  width: 100%;
+  height: 430px;
+  position: relative;
+  bottom: -1000px;
+  border-top: 1px solid #282828;
+}
+
+footer > a h2 {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 700%;
+  line-height:120%;
+  font-weight: 100;
+  color: #d1d1d1;
+  position: absolute;
+  left:450px;
+  top: 60px;
+  }
+
+footer .other {
+  position: absolute;
+  left:31%;
+  top: 200px;
+}
+
+footer .other >li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 110%;
+  font-weight: 100;
+  color: #919191;
+  float: left;
+  text-align:left;
+  margin-right: 30px;
+}
+
+footer .other >li >b {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 110%;
+  font-weight: 600;
+  color: #a3a3a3;
+}
+
+
+footer > img {
+  width: 100%;
+  margin-top: 220px;
+  opacity: 0.4;
+}
+
+footer > p {
+  margin-top: 30px;
+}
+
+/* 데스크탑 (1440) 이상 시 */
+@media screen and (min-width: 1440px){
+
+}
+
+/* 데스크탑 (1920) 이상 시 */
+@media screen and (min-width: 1920px){
+
+}
